@@ -1,0 +1,22 @@
+{
+  "name": "contributor",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Mike Littman"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/mikelittman/contributor",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "material-design-lite": "~1.0.6"
+  }
+}
