@@ -14,6 +14,8 @@ router.route('/news')
   });
 
 
+app.use('/api', router);
+
 app.listen(app.get('port'), function () {
   console.info('App has started');
 });
