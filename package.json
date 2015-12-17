@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "postinstall": "gulp"
+    "postinstall": "./postinstall.sh"
   },
   "engines": {
     "node": "5.2.0"
