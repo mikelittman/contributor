@@ -1,0 +1,26 @@
+.control-panel {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  text-align: right;
+}
+#article_panel {
+  margin: auto;
+  width: auto;
+}
+.grid-item {
+  display: inline-block;
+  width: 256px;
+  padding: 8px;
+  box-sizing: border-box;
+}
+.card-portrait.mdl-card {
+  width: 256px;
+
+  .mdl-card__actions {
+    background: rgba(0,0,0,0.2);
+  }
+}
+.card-landscape {
+
+}

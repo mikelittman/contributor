@@ -21,13 +21,16 @@
   },
   "homepage": "https://github.com/mikelittman/contributor#readme",
   "dependencies": {
+    "body-parser": "^1.14.2",
     "bower": "^1.7.1",
     "del": "^2.2.0",
+    "embedly": "^1.0.4",
     "express": "^4.13.3",
     "gulp": "^3.9.0",
     "gulp-filter": "^3.0.1",
     "gulp-load-plugins": "^1.1.0",
     "gulp-minify": "0.0.5",
+    "gulp-sass": "^2.1.1",
     "gulp-useref": "^3.0.3",
     "wiredep": "^3.0.0"
   }
