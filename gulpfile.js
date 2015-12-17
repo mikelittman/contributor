@@ -9,9 +9,16 @@ gulp.task('clean', function () {
 });
 
 gulp.task('html', function () {
+  var filters = {
+    css: $.filter('*.css', {restore: true}),
+    js: $.filter('*.js')
+  };
   return gulp.src('src/index.html')
     .pipe(wiredep({}))
     .pipe($.useref())
+    .pipe(filters.css)
+    .pipe($.minify())
+    .pipe(filters.css.restore)
     .pipe(gulp.dest('build/'));
 });
 
